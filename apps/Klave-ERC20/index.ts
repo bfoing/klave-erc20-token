@@ -46,6 +46,13 @@ export function name(): void {
 
 /** 
  * @query
+ **/
+export function hello_world(): void {
+    emit(`Yo 😎`);
+}
+
+/** 
+ * @query
  *  */
 export function symbol(): void {
     let erc20 = _loadERC20();
